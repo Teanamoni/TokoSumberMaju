@@ -1,139 +1,90 @@
-📦 Company Profile
+<div align="center">
 
-Proyek ini adalah aplikasi web yang dibangun menggunakan Laravel sebagai backend dan Laravel UI untuk frontend. Fungsinya adalah sebagai sistem manajemen untuk katalog produk dan informasi perusahaan (Company Profile).
+<img src="https://capsule-render.vercel.app/render?type=waving&color=0078ff&height=250&section=header&text=Company%20Profile%20Project&fontSize=50&animation=fadeIn" width="100%" />
 
-✨ Fitur Utama
+<br />
 
-Master Data: Pengelolaan Kelompok Produk, Kategori, dan Produk.
+### 🏢 **Elevating Brand Identity Through Web Excellence**
+*Website Toko Bangunan Sumber Maju .*
 
-Admin Panel: Antarmuka terpisah untuk manajemen sistem.
+<p align="center">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-Project_Selesai-success?style=for-the-badge" />
+</p>
 
-Teknologi Modern: Dibangun di atas Laravel 11.
+---
 
-🚀 Persyaratan Sistem
+</div>
 
-Pastikan lingkungan lokal Anda memenuhi persyaratan berikut:
+## 📌 Deskripsi Project
+Project ini adalah website **Toko Sumber Maju** yang dirancang untuk menampilkan Produk serta promosi toko secara profesional. Fokus utama project ini adalah antarmuka yang bersih (clean UI), navigasi yang mudah, dan performa yang optimal untuk membangun kepercayaan klien secara digital.
 
-Persyaratan
+---
 
-Versi Minimum
+## 💎 Fitur Utama
+- **✨ User Interface Modern:** Desain minimalis mengikuti tren web terbaru.
+- **📱 Responsive Layout:** Teroptimasi sempurna untuk smartphone, tablet, dan desktop.
+- **📂 Portfolio Showcase:** Menampilkan galeri hasil kerja perusahaan dengan rapi.
+- **✉️ Contact Integration:** Form kontak yang memudahkan pengunjung menghubungi admin.
+- **⚡ SEO Friendly:** Struktur HTML yang baik untuk kemudahan mesin pencari.
 
-Catatan
+---
 
-PHP
+## 🛠️ Tech Stack (Teknologi)
+| Komponen | Teknologi |
+| :--- | :--- |
+| **Backend** | PHP 8.x |
+| **Database** | MySQL |
+| **Frontend Framework** | Bootstrap 5 |
+| **Icons** | FontAwesome / BoxIcons |
+| **Animation** | AOS (Animate On Scroll) |
 
-8.1+
+---
 
-Diperlukan oleh Laravel 11.
+## 📸 Preview Tampilan
+> [!TIP]
+> **Cara Ganti Gambar:** Screenshot web kamu, upload ke folder project, lalu ganti nama `preview.png` di bawah sesuai nama file fotomu.
 
-Composer
+<div align="center">
+  <img src="preview.png" width="900" alt="Desktop Preview" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <p><i>Tampilan Visual Antarmuka - Bersih & Profesional</i></p>
+</div>
 
-Terbaru
+---
 
-Manajer dependensi PHP.
+## 🚀 Cara Menjalankan Project (Local)
 
-Node.js & NPM
+1. **Persiapan**
+   - Pastikan sudah menginstal **XAMPP**.
+   - Clone repository ini: `git clone https://github.com/username-kamu/nama-repo.git`.
 
-LTS
+2. **Konfigurasi Folder**
+   - Pindahkan folder project ke dalam direktori `C:/xampp/htdocs/`.
 
-Untuk aset frontend (Laravel Mix).
+3. **Setup Database**
+   - Buka `localhost/phpmyadmin` di browser.
+   - Buat database baru, lalu **Import** file `.sql` yang ada di folder project.
+   - Sesuaikan file koneksi database (biasanya `config.php` atau `koneksi.php`).
 
-Database
+4. **Akses Website**
+   - Jalankan Apache & MySQL di XAMPP.
+   - Buka `localhost/nama-folder-kamu` di browser.
 
-MySQL/MariaDB
+---
 
-Disarankan menggunakan Laragon, XAMPP, atau Docker.
+<div align="center">
 
-# 🛠️ Panduan Instalasi Lokal
+### 🤝 Mari Terhubung
+Ingin berdiskusi atau kolaborasi? Hubungi saya melalui:
 
-Ikuti langkah-langkah di bawah ini untuk menjalankan proyek di komputer lokal Anda.
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/akun-kamu)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nama-kamu)
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:email-kamu@gmail.com)
 
-# 1. Kloning Repositori
+<br />
 
-Kloning proyek ke direktori lokal Anda:
+**Project ini dikembangkan oleh Tim Falmoryn ✨**
 
-```bash
-git clone https://github.com/Syahrul-Fajar/Company-Profile.git
-cd Company-profile
-```
-
-# 2. Instalasi Dependensi PHP
-
-Gunakan Composer untuk menginstal semua dependensi backend:
-```bash
-composer install
-```
-
-# 3. Konfigurasi Lingkungan (.env)
-
-Salin file contoh lingkungan dan buat kunci aplikasi:
-```bash
-cp .env.example .env
-php artisan key:generate
-```
-
-# 4. Konfigurasi Database
-
-Buka file .env dan perbarui detail koneksi database Anda:
-```bash
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=company_profile_db # Ganti dengan nama database yang Anda buat
-DB_USERNAME=root 
-DB_PASSWORD=
-```
-
-Pastikan Anda telah membuat database yang sesuai di server database Anda.
-
-# 5. Migrasi dan Seeder
-
-Jalankan migrasi untuk membuat semua tabel di database:
-
-Untuk menghapus semua tabel dan membuat ulang (disarankan untuk fresh install)
-```bash
-php artisan migrate:fresh --seed
-```
-
-ATAU, jika ingin menjalankan migrasi yang tertunda saja:
-```bash
-php artisan migrate
-```
-
-# 6. Instalasi dan Kompilasi Aset Frontend
-
-Proyek ini menggunakan Laravel Mix. Instal dan kompilasi aset frontend:
-
-Instal dependensi Node.js
-```bash
-npm install
-```
-
-# ▶️ Menjalankan Aplikasi
-
-Jalankan server pengembangan bawaan Laravel:
-```bash
-php artisan serve
-```
-
-Akses aplikasi Anda di browser melalui: http://127.0.0.1:8000
-
-# 🔐 Akses Admin Panel
-```bash
-Admin panel dapat diakses melalui rute /admin.
-
-URL Admin: http://127.0.0.1:8000/admin
-
-Kredensial Login: (Gunakan akun yang dibuat oleh seeder Anda, jika ada.)
-Username: sumbermaju@gmail.com
-Password: password
-```
-🤝 Kontribusi & Lisensi
-
-📝 Kontribusi
-
-Jika Anda ingin berkontribusi pada proyek ini, silakan ajukan Pull Request atau buat Issue baru.
-
-📄 Lisensi
-
-Proyek ini dirilis di bawah lisensi MIT.
+</div>
